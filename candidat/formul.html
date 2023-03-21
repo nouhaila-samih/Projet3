@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formul</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    body{
+        
+background: linear-gradient(rgb(129, 159, 243), rgb(51, 45, 139));
+background-attachment: fixed;
+
+    }
+ 
+    
+      
+    .btn1{
+        border:none;
+        outline:none;
+        height:50px;
+        width:100%;
+        background-color: rgb(88, 88, 232);
+        color:white;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-left: 400px;
+    }
+    .btn1:hover {
+background-color: rgb(255, 255, 255);
+border: 2px solid darkblue;
+color: darkblue;
+  }
+
+.nav-link {
+    
+    color: #333;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color:rgb(31, 31, 240);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    
+}
+
+
+
+    #logo{
+width: 90px;
+margin: 0;
+padding: 0;
+}
+.head {
+border-radius: 10px;
+background-color: rgba(255,255,255,0.5);
+
+}
+.photo{
+
+}
+#img{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.llo{
+    margin-left: 150px;
+  
+}
+.Ajouter{
+    margin-left: 400PX;
+   
+}
+</style>
+<body>
+    <body>
+        <div class="navbar navbar-expand-md bg-light navbar-light">
+            <div class="container">
+                <div class="col">
+                <a class="navbar-brand fw-bold" href="../Accueil/index.html " >
+                    <img id="logo" src="logo.png">
+                </a>  </div>
+                <div class="col ">
+                    <div class="row ">
+                        <ul class="navbar-nav justify-content-end ">
+                    <li class="nav-item ">
+                       <a class="nav-link text-primary cn fw-bold" href="http://127.0.0.1:5501/candidat/candidat.html">  Se connecter </a>
+                    </li>
+                    <li class="nav-item ">
+                       <a class="nav-link text-primary cn fw-bold " href="http://127.0.0.1:5501/candidat/formul.html">S'inscrire</a>
+                    </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                <ul class="navbar-nav justify-content-end ">
+                    <li class="nav-item active">
+                       <a class="nav-link fst-italic " href="chercher.Html"> Accueil Candidat </a>
+                    </li>
+                    
+                    <li class="nav-item ">
+                        <a class="nav-link fst-italic" href="chercher.Html"> Rechercher un emploi </a>
+                    </li>
+                </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+      
+     
+         <section class="Form my-4 mx-5">
+                <div class="container ">
+                    <div class="row no-gutters p-5 bg-light m-5 bg-opacity-75 d-flex justify-content-center">
+                        
+                            <h3 class="font-weight-bold py-3  text-center"> Informations personnelles</h3>
+                            <form>
+                                <div class="row no-gutters d-flex justify-content-center">
+                                <div class="col-5 form-floating mb-3">
+                                    <input type="name" class="form-control" id="floatingInput" placeholder="Nom">
+                                    <label for="floatingInput">--Nom--</label>
+                                   
+                                </div>
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="name" class="form-control" id="floatingInput" placeholder="Prénom">
+                                    <label for="floatingInput">--Prénom--</label>
+                                </div>
+                            </div>
+                           
+                            
+
+                                <div class="row no-gutters d-flex justify-content-center">
+                                    
+                       
+                            
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="number" class="form-control" id="floatingInput" placeholder=Adress-Email>
+                                    <label for="floatingInput">--Adresse-Email--</label>
+                                </div>
+                            
+
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Téléphone">
+                                    <label for="floatingInput">--Téléphone--</label>
+                                </div>
+                            </div>
+                             
+
+                            <div class="row no-gutters d-flex justify-content-center">
+                                <div class="col-5">
+                                    <select class="form-select p-3" aria-label="Domaine entreprise">
+                                        <option selected>--Civilites--</option>
+                                        <option value="info">Homme</option>
+                                        <option value="com">Femme</option>
+                                     
+                                 
+                                    </select>
+                                </div>
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="name" class="form-control" id="floatingInput" placeholder="Ville">
+                                    <label for="floatingInput">--Ville--</label>
+                                </div>
+                            </div><br>
+
+                        
+                            </form>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="Form my-4 mx-5">
+                <div class="container ">
+                    <div class="row no-gutters p-5 bg-light m-5 bg-opacity-75 d-flex justify-content-center">
+                        
+                            <h3 class="font-weight-bold py-3  text-center"> Expérience professionnelle</h3>
+                            <form>
+                                <div class="row no-gutters d-flex justify-content-center">
+                                    
+                                <div  class="col-5 form-floating mb-3">
+                                   
+                                    <input type="name" class="form-control" id="floatingInput" placeholder="Nom">
+                                    <label for="floatingInput">-- Nom Expérience--</label>
+                                </div>
+                               
+                                <div class=" col-5 form-floating mb-3">
+
+                                    <div class="form-row mb-3 ">
+                                          <select class="form-select p-3" aria-label="Domaine entreprise">
+                                                <option selected>--Poste--</option>
+                                                <option value="tech">Technicien</option>
+                                                <option value="bac">Bac+3</option>
+                                                <option value="ing">Ingenieur</option>
+                                                <option value="bac">Bac+7
+                                                </option>
+                                             
+                                            </select>
+                                      
+                                    </div>
+
+                                </div>
+                            </div>
+                          
+                           
+                            
+
+
+
+                                <div class="row no-gutters d-flex justify-content-center">
+                                    
+                       
+                            
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="date" class="form-control" id="floatingInput">
+                                    <label for="floatingInput">Date debut:</label>
+                                </div>
+                            
+
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="date" class="form-control" id="floatingInput" >
+                                    <label for="floatingInput">Date fin:</label>
+                                </div>
+                            </div> 
+                      
+
+                            <!----------------------------------->
+                            <div class="row no-gutters d-flex justify-content-center">
+                      
+                            
+                                <div  class="col-6 form-floating mb-3">
+                             <label for="formFileMultiple" class="form-label"></label>
+                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                </div>
+                            </div>
+                        </div>
+
+                
+
+                           
+                            </form>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="Form my-4 mx-5">
+                <div class="container ">
+                    <div class="row no-gutters p-5 bg-light m-5 bg-opacity-75 d-flex justify-content-center">
+                        
+                            <h3 class="font-weight-bold py-3  text-center">Diplôme et Formation</h3>
+                            <form>
+                                <div class="row no-gutters d-flex justify-content-center">
+                                <div  class="col-5 form-floating mb-3">
+                                    <input type="name" class="form-control" id="floatingInput" placeholder="Nom">
+                                    <label for="floatingInput">--Nom_ Diplôme--</label>
+                                   
+                                   
+                                </div>
+                                <div class=" col-5 form-floating mb-3">
+
+                    
+                                        <input type="name" class="form-control" id="floatingInput" placeholder="Nom">
+                                    <label for="floatingInput">--Nom_Instutution--</label>
+                                      
+                                    </div>
+
+                                </div>
+                                <div class="row no-gutters d-flex justify-content-center">
+                                    
+                       
+                                    <div class=" col-5 form-floating mb-3">
+                                    <input type="date" class="form-control" id="floatingInput">
+                                    <label for="floatingInput">Date début:</label>
+                                </div>
+
+                                <div class=" col-5 form-floating mb-3">
+                                    <input type="date" class="form-control" id="floatingInput" >
+                                    <label for="floatingInput">Date fin:</label>
+                                </div>
+                            </div>   
+                           
+                            </form>
+                       </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="Form my-4 mx-5">
+                <div class="container ">
+                    <div class="row no-gutters p-5 bg-light m-5 bg-opacity-75 d-flex justify-content-center">
+                        
+                            <h3 class="font-weight-bold py-3  text-center">Compétence</h3>
+                        <form>
+                            <div class="row no-gutters d-flex justify-content-center">
+                            <div  class="col-5 form-floating mb-3">
+                                        <input type="texte" class="form-control" id="floatingInput" placeholder="Nom">
+                                        <label for="floatingInput">--Compétence--</label>
+                                       
+                                    </div>
+                                    <div class=" col-5 form-floating mb-3">
+                                       
+    
+                        
+                                            <input type="name" class="form-control" id="floatingInput" placeholder="détails">
+                                        <label for="floatingInput">--Détails--</label><br>
+                                        <div class="Ajouter">
+                                            <button type="submit" class="btn btn-primary">Ajouter</button>
+                                        </div>
+
+
+
+                                    </div>
+
+                                 
+                                    </div>
+                                </div>
+                              
+
+                        </form>
+                    
+                    </section>
+                    <div class="form-row">
+                        <div class="col-5">
+                            <button type="button" class="btn1 my-2 mb-4">S'inscrire</button>
+                        </div>
+                    </div>
+
+                    
+
+
+                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: linear-gradient(rgb(129, 159, 243), rgb(51, 45, 139));
+    background-attachment: fixed;
+
+}
+
+.btn {
+    float: right;
+    margin-top: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(88, 88, 232);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.btn1:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid darkblue;
+    color: darkblue;
+}
+
+.nav-link {
+
+    color: #333;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: rgb(31, 31, 240);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+
+}
+
+
+
+#logo {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#img {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.llo {
+    margin-left: 150px;
+
+}
+
+.Ajouter {
+    margin-left: 400PX;
+
+}
+

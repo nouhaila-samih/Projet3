@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Recruteur</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+            <div class="col">
+            <a class="navbar-brand fw-bold" href="../Accueil/index.html " >
+                <img id="logo" src="logo.png">
+            </a>  </div>
+            <div class="col ">
+                <div class="row ">
+                    <ul class="navbar-nav justify-content-end ">
+                <li class="nav-item ">
+                   <a class="nav-link text-primary cn fw-bold" href="Profil.php"> Mon Profil </a>
+                </li>
+                <li class="nav-item ">
+                   <a class="nav-link text-primary cn fw-bold " href="../Accueil/index.html">Se déconnecter</a>
+                </li>
+                    </ul>
+                </div>
+                <div class="row">   
+            <ul class="navbar-nav justify-content-end ">
+                <li class="nav-item">
+                    <a class="nav-link fst-italic" href="acc.html"> Accueil Recruteur </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fst-italic" href="mapage.php"> Mes offres </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fst-italic" href="chercher.php"> Chercher des CV </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fst-italic" href="offre.html"> Ajouter une offre </a>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row head">
+            <div class="col-12 ">
+               <h2 class="text-center p-2 "> Ajouter une offre </h2>
+            </div>
+        </div>
+    </div>
+     <section class="Form my-4 mx-5">
+            <div class="container ">
+                <div class="row no-gutters p-5 bg-light m-5 bg-opacity-75 d-flex justify-content-center">
+                    <div class="col-7">
+                        <h3 class="font-weight-bold py-2  text-center"> Informations de l'offre</h3>
+                        <form action="offre.php" method="post">
+                            
+                            <div class=" col form-floating mt-5 mb-3">
+                                <input type="name" class="form-control" id="floatingInput" name="poste" placeholder="Nom du poste">
+                                <label for="floatingInput">Nom du poste</label>
+                            </div>
+                            <div class=" col form-floating mb-3">
+                                <input type="name" class="form-control" id="floatingInput" name="nom_entreprise" placeholder="Nom d'Entreprise'">
+                                <label for="floatingInput">Nom de l'Entreprise</label>
+                            </div>
+                            <div class="form-row mb-3 ">
+                                <div class="col">
+                                    <select class="form-select p-3" name="domaine" aria-label="Domaine entreprise">
+                                        <option selected>--Domaine--</option>
+                                        <option value="info">Informatique</option>
+                                        <option value="com">Commerce</option>
+                                        <option value="meca">Mécanique</option>
+                                        <option value="elec">Electrique</option>
+                                        <option value="cui">Cuisine</option>
+                                        <option value="med">Medecine</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row mb-3">
+                                <div class="col">
+                                    <select class="form-select p-3" name="type_contrat" aria-label="type">
+                                        <option selected>-- Type de Contrat --</option>
+                                        <option value="emp">Emploi</option>
+                                        <option value="st-pre">Stage Pré Embauche</option>
+                                        <option value="st">Stage</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class=" col form-floating mb-3">
+                                <input type="number" class="form-control" name="duree" id="floatingInput" placeholder="Durée">
+                                <label for="floatingInput">Durée (mois)</label>
+                            </div>
+                            <div class=" col form-floating mb-3">
+                                <input type="text" class="form-control" name="localisation" id="floatingInput" placeholder="adresse">
+                                <label for="floatingInput">Adresse</label>
+                            </div>
+                            <div class=" col form-floating mb-3">
+                                <input type="number" class="form-control" name="salaire" id="floatingInput" placeholder="salaire">
+                                <label for="floatingInput">Salaire</label>
+                            </div>
+                            <div class=" col form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" name="descr" placeholder="description">
+                                <label for="floatingInput">Description</label>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="col">
+                                    <button type="submit" class="btn1 my-2 mb-4" name="sub">Soumettre</button>
+                                </div>
+                            </div>
+                        </form>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
